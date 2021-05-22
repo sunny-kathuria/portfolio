@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,100&display=swap');
+
+
+:root{
+    --primary-color:#FF7863;
+    --gray:#8985a8;
+    --off-white:#f3f4f6;
+}
+
+
+
+body{
+    font-family: 'Lato', sans-serif;
+    margin:0px;
+}
+
+hr{
+    margin:2.5rem 0rem;
+}
+
+/**container blocks **/
+.container{
+ padding-left: 1rem;
+ padding-right: 1rem;
+}
+
+
+.centre-container{
+    max-width:  600px;
+    margin: auto;
+    padding: 1rem 1rem;
+}
+
+/** Links**/
+.link{
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.primary-link{
+    background-color: var(--primary-color);
+    border-radius:0.5rem ;
+    color:white;
+}
+
+.secondary-link{
+    color:var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/** Lists **/
+
+.list-non-bullet{
+    list-style: none;
+}
+
+.list-item-inline{
+    display: inline;
+    padding-right: 1rem;
+    padding-left: 1rem ;
+}
+
+/** navigation **/
+.navigation{
+    background-color: var(--primary-color);
+    color:white;
+    padding: 1rem;
+    border-bottom-left-radius: 1.5rem;
+}
+.nav-list{
+    text-align: right;
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+
+.hero{
+    padding: 2rem;
+
+}
+
+.hero .hero-img{
+    max-width: 400px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading{
+    color: var(--gray) ;
+    padding: 1rem;
+    text-align: center;
+}
+.hero .hero-heading .header-inverted{
+    color: var(--primary-color);
+}
+
+
+/** Section **/
+
+.section h1{
+    text-align: center;
+    padding: 2rem;
+}
+
+
+.ow{
+    background-color: var(--off-white);
+}
+
+
+/** footers **/
+
+.footer{
+    background-color: var(--gray);
+    padding: 2rem 1rem;
+    color: white;
+    text-align: center;
+    border-top-right-radius:1.5rem ;
+
+}
+
+.footer .link{
+    color:white;
+}
+.footer-header{
+    font-size: large;
+    font-weight: bold;
+
+}
+
+.footer ul{
+    padding-inline-start: 0px;
+}
+
+
