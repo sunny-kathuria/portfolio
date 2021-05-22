@@ -120,7 +120,7 @@ hr{
 /** footers **/
 
 .footer{
-    background-color: var(--gray);
+    background-color: var(--primary-color);
     padding: 2rem 1rem;
     color: white;
     text-align: center;
