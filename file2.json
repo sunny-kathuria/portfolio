@@ -9,13 +9,8 @@
     },
     {
       "kind": "objectRef#NetworkObjGroup",
-      "refLink": "https://192.168.1.1/api/objects/networkobjectgroups/Neobj2",
+      "refLink": "https://sunnykathuria.netlify.app/file3.json",
       "objectId": "Neobj2"
-    },
-    {
-      "kind": "objectRef#NetworkObjGroup",
-      "refLink": "https://192.168.1.1/api/objects/networkobjectgroups/Netobj1",
-      "objectId": "Netobj1"
     }
   ],
   "description": "",
