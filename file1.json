@@ -76,7 +76,7 @@
       "permit": true,
       "sourceAddress": {
         "kind": "objectRef#NetworkObjGroup",
-        "refLink": "https://ufile.io/piahopx6",
+        "refLink": "https://sunnykathuria.netlify.app/file2.json",
         "objectId": "New_obj33"
       },
       "destinationAddress": {
