@@ -1,0 +1,105 @@
+{"$schema": "http://json-schema.org/draft-04/schema# ",
+  "kind": "collection#ExtendedACE",
+  "selfLink": "https://192.168.1.1/api/objects/extendedacls/management_access_in/aces",
+  "rangeInfo": {
+    "offset": 0,
+    "limit": 3,
+    "total": 3
+  },
+  "items": [
+    {
+      "kind": "object#ExtendedACE",
+      "selfLink": "https://192.168.1.1/api/access/in/management/rules/776283449",
+      "permit": true,
+      "sourceAddress": {
+        "kind": "AnyIPAddress",
+        "value": "any"
+      },
+      "destinationAddress": {
+        "kind": "AnyIPAddress",
+        "value": "any"
+      },
+      "sourceService": {
+        "kind": "NetworkProtocol",
+        "value": "tcp"
+      },
+      "destinationService": {
+        "kind": "NetworkProtocol",
+        "value": "tcp"
+      },
+      "active": true,
+      "remarks": [
+        "heyyy"
+      ],
+      "ruleLogging": {
+        "logStatus": "Default",
+        "logInterval": 300
+      },
+      "position": 1,
+      "isAccessRule": true,
+      "objectId": "776283449"
+    },
+    {
+      "kind": "object#ExtendedACE",
+      "selfLink": "https://192.168.1.1/api/access/in/management/rules/1077117607",
+      "permit": true,
+      "sourceAddress": {
+        "kind": "objectRef#NetworkObjGroup",
+        "refLink": "https://192.168.1.1/api/objects/networkobjectgroups/Neobj2",
+        "objectId": "Neobj2"
+      },
+      "destinationAddress": {
+        "kind": "AnyIPAddress",
+        "value": "any"
+      },
+      "sourceService": {
+        "kind": "NetworkProtocol",
+        "value": "ip"
+      },
+      "destinationService": {
+        "kind": "NetworkProtocol",
+        "value": "ip"
+      },
+      "active": true,
+      "remarks": [],
+      "ruleLogging": {
+        "logStatus": "Default",
+        "logInterval": 300
+      },
+      "position": 2,
+      "isAccessRule": true,
+      "objectId": "1077117607"
+    },
+    {
+      "kind": "object#ExtendedACE",
+      "selfLink": "https://192.168.1.1/api/access/in/management/rules/1953852112",
+      "permit": true,
+      "sourceAddress": {
+        "kind": "objectRef#NetworkObjGroup",
+        "refLink": "https://ufile.io/piahopx6",
+        "objectId": "New_obj33"
+      },
+      "destinationAddress": {
+        "kind": "AnyIPAddress",
+        "value": "any"
+      },
+      "sourceService": {
+        "kind": "NetworkProtocol",
+        "value": "ip"
+      },
+      "destinationService": {
+        "kind": "NetworkProtocol",
+        "value": "ip"
+      },
+      "active": true,
+      "remarks": [],
+      "ruleLogging": {
+        "logStatus": "Default",
+        "logInterval": 300
+      },
+      "position": 3,
+      "isAccessRule": true,
+      "objectId": "1953852112"
+    }
+  ]
+}
