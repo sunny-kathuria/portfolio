@@ -3,8 +3,8 @@
   "selfLink": "https://192.168.1.1/api/objects/extendedacls/management_access_in/aces",
   "rangeInfo": {
     "offset": 0,
-    "limit": 3,
-    "total": 3
+    "limit": 2,
+    "total": 2
   },
   "items": [
     {
